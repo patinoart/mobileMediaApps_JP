@@ -22,6 +22,9 @@
 		0D74C80C170A4FEC0019AA6B /* msProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D74C80A170A4FEC0019AA6B /* msProfile.jpg */; };
 		0D74C80D170A4FEC0019AA6B /* storeFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D74C80B170A4FEC0019AA6B /* storeFront.jpg */; };
 		0D98928E1713A29600CC7EFC /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D98928D1713A29600CC7EFC /* Restaurant.m */; };
+		0DBF8C5C171CB192003C086D /* chatNChew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF8C59171CB192003C086D /* chatNChew.jpg */; };
+		0DBF8C5D171CB192003C086D /* coffeeShopBar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF8C5A171CB192003C086D /* coffeeShopBar.jpg */; };
+		0DBF8C5E171CB192003C086D /* steakFrites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF8C5B171CB192003C086D /* steakFrites.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		0D74C80B170A4FEC0019AA6B /* storeFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storeFront.jpg; sourceTree = "<group>"; };
 		0D98928C1713A29600CC7EFC /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Restaurant.h; path = Foodplace/Restaurant.h; sourceTree = "<group>"; };
 		0D98928D1713A29600CC7EFC /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Restaurant.m; path = Foodplace/Restaurant.m; sourceTree = "<group>"; };
+		0DBF8C59171CB192003C086D /* chatNChew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chatNChew.jpg; sourceTree = "<group>"; };
+		0DBF8C5A171CB192003C086D /* coffeeShopBar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeeShopBar.jpg; sourceTree = "<group>"; };
+		0DBF8C5B171CB192003C086D /* steakFrites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steakFrites.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 		0D74C80E170A4FF40019AA6B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0DBF8C59171CB192003C086D /* chatNChew.jpg */,
+				0DBF8C5A171CB192003C086D /* coffeeShopBar.jpg */,
+				0DBF8C5B171CB192003C086D /* steakFrites.jpg */,
 				0D74C80A170A4FEC0019AA6B /* msProfile.jpg */,
 				0D74C80B170A4FEC0019AA6B /* storeFront.jpg */,
 			);
@@ -189,6 +198,9 @@
 				0D74C7FE170A4C310019AA6B /* MainStoryboard.storyboard in Resources */,
 				0D74C80C170A4FEC0019AA6B /* msProfile.jpg in Resources */,
 				0D74C80D170A4FEC0019AA6B /* storeFront.jpg in Resources */,
+				0DBF8C5C171CB192003C086D /* chatNChew.jpg in Resources */,
+				0DBF8C5D171CB192003C086D /* coffeeShopBar.jpg in Resources */,
+				0DBF8C5E171CB192003C086D /* steakFrites.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

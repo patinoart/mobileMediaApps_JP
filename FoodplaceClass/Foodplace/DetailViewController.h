@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "Restaurant.h"
 
-@interface DetailViewController : UIViewController <UITextFieldDelegate>
+@interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *cuisineLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *restaurantImage;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-@property (strong, nonatomic) IBOutlet UITextField *guestsTextField;
 
 @end

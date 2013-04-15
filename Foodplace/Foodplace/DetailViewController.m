@@ -30,6 +30,16 @@
 {
     // Update the user interface for the detail item.
     
+    Restaurant *chatNChew = [Restaurant new];
+    chatNChew.name = @"Chat 'N' Chew";
+    
+    Restaurant *steakFrites = [Restaurant new];
+    steakFrites.name = @"Steak Frites";
+    
+    self.navigationItem.title = steakFrites.name;
+    self.nameLabel.text = steakFrites.name;
+    
+    /*
     int numberOfGuests = 4;
     
     float priceOfDinner = [self priceOfDinnerForGuests:numberOfGuests];
@@ -39,6 +49,7 @@
     self.detailDescriptionLabel.text = someText;
     
     NSLog(@"Price of Dinner is %.2f for %d guests", priceOfDinner, numberOfGuests);
+     */
 
 }
 
